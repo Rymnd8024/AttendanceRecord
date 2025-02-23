@@ -1,7 +1,7 @@
 # AttendanceRecord
 This program manages employee attendance records. It allows users to add new attendance records, display all attendance records, and save/load records to/from a file named updated_attendance.csv.
 
-Changes
+# Changes
 From reading and saving to/from .txt file
 To reading and saving to/from .csv file // use Attendance Record provided by MotorPH
 https://drive.google.com/file/d/1s1jYpuJGiPLDFHfPXAGtuX9zDz3AdgcO/view?usp=sharing 
@@ -12,14 +12,15 @@ Old - taking inputs of employeeId, date, timeIn, timeOut, isClockIn
 New - taking inputs of employeeId, firstName, lastName, date, timeIn, timeOut, isClockIn
 To match the Attendance Record provided by MotorPH
 
-Classes
+# Classes
 AttendanceRecord
 The AttendanceRecord class contains the main method and methods for managing attendance records.
 
 Fields
-static Scanner scan: A Scanner object for reading user input.
-static ArrayList<EmployeeAttendance> logs: An ArrayList to store EmployeeAttendance objects.
+static Scanner scan: A Scanner object for reading user input.	
+static ArrayList<EmployeeAttendance> logs: An ArrayList to store EmployeeAttendance objects.  
 static final String AttendanceLogs: The name of the file where attendance records are saved.
+
 
 Methods
 main(String[] args)
