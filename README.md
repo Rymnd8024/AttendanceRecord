@@ -1,9 +1,6 @@
 # AttendanceRecord
 This program manages employee attendance records. It allows users to add new attendance records, display all attendance records, and save/load records to/from a file named updated_attendance.csv.
 
-Overview
-This program manages employee attendance records. It allows users to add new attendance records, display all attendance records, and save/load records to/from a file named Attendance.txt.
-
 Changes
 From reading and saving to/from .txt file
 To reading and saving to/from .csv file // use Attendance Record provided by MotorPH
